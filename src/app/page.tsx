@@ -12,7 +12,7 @@ export default function Chat() {
           <div 
             key={m.id} 
             className={`p-2 rounded ${
-              m.role === 'user' ? 'bg-blue-100 text-right' : 'bg-gray-100'
+              m.role === 'user' ? 'text-right' : 'bg-gray-100'
             }`}
           >
             {m.content}
